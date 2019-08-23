@@ -1,0 +1,20 @@
+Step 1: Create a while loop that will include menu options (1-4) and greeting using f string template
+Step1a: create a variable that will hold the input of what will you like to do
+
+Step2: Create conditionals (if/elif/else) that will connect w/menu options
+Step2a: Create an input variable that will hold- what will you like to do
+
+Step3: Create a variable that has the current balance
+Step3a: under the condition of option1, display account balance using fstring template
+
+Step4: under the condition the user would like to add to balance, creat a variable that
+holds the input of what the user would like to deposit
+Step4a: create a variable that will update to account balance.
+        Example: account=0
+                 deposit=account+ deposit(input)
+Step4b: display account balance using f string template
+Step5: Under the condition the user ask to withdraw from account,
+create a variable that will hold the input of the amount the user
+would like to withdraw
+Step5a: under the conditoin account balance is low, display insufficient funds
+Step5b: under the condition that the account balance has sufficient funds, display updated balance
