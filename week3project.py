@@ -27,7 +27,7 @@ while(x!=4):#Create a while loop that includes menu options in f string template
         print(f"\nYour new balance is: ${acct}\n") #display updated balance
     elif(userInput==3): #Condition for option 3
         acctWithdraw= int(input("How much would you like to withdraw?  ")) #variable created to hold user input for amount to withdraw
-        newacct=acct-acctWithdraw #acct variable redeclared to output new balance.
+        newacct=acct-acctWithdraw #acct variable redeclared to output new balance. !! : you should redefine acct NOT create a new varibale so that the running total is updated 
         if(acctWithdraw>acct): # if input is greater than acct variable,
             print(f"\nInsufficient funds\n") # displays message if condition is true
         elif(acctWithdraw<acct): #if 1st condition is not true, this condition checks if input is less than acct variable

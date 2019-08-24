@@ -39,3 +39,6 @@ Before the program starts, ask the user for their account name and a pin number.
 
 
 # SERIOUSLY, POINTS WILL BE TAKEN OFF FOR NOT COMMENTING
+
+### Comments:
+Good work! Your only issue was with withdraw money from account. You were not updating your running total. Check out the inline comments I made starting with "!!". Good planning and comments. Make sure to test your code before submission (you might have caught your withdraw issue). 
